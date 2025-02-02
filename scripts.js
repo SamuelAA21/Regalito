@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let doll = document.getElementById("dancing-doll");
 
     gift.addEventListener("click", function () {
-        giftImage.src = "gift-open.png";  // Imagen del regalo abierto
+        giftImage.src = "Imagenes/flores.png";  // Imagen del regalo abierto
         doll.classList.add("dancing");
     });
 });
