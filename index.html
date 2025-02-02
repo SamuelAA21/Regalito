@@ -6,7 +6,7 @@
     <title>🌸 Para Mi Amiga 🌸</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body>
+<body class="not-loaded">
 
     <!-- Pantalla de bienvenida -->
     <div id="bienvenida">
@@ -17,26 +17,26 @@
     <!-- Pantalla negra con transición -->
     <div id="pantalla-negra"></div>
 
-    <!-- Regalo que aparece después -->
+    <!-- Regalo -->
     <div id="contenedor-regalo">
         <img id="regalo" src="imagenes/regalo.png" alt="Regalo">
     </div>
 
-    <!-- Contenedor de la flor animada (de CodePen) -->
-    <div id="flor-container">
-        <div class="stem"></div>
-        <div class="leaf leaf-1"></div>
-        <div class="leaf leaf-2"></div>
-        <div class="flower">
-            <div class="petal petal-1"></div>
-            <div class="petal petal-2"></div>
-            <div class="petal petal-3"></div>
-            <div class="petal petal-4"></div>
-            <div class="petal petal-5"></div>
-            <div class="petal petal-6"></div>
-            <div class="petal petal-7"></div>
-            <div class="petal petal-8"></div>
-            <div class="circle"></div>
+    <!-- Contenedor de la flor animada -->
+    <div id="flor-container" class="flowers">
+        <div class="flower flower--1">
+            <div class="flower__leafs flower__leafs--1">
+                <div class="flower__leaf flower__leaf--1"></div>
+                <div class="flower__leaf flower__leaf--2"></div>
+                <div class="flower__leaf flower__leaf--3"></div>
+                <div class="flower__leaf flower__leaf--4"></div>
+                <div class="flower__white-circle"></div>
+                <div class="flower__light flower__light--1"></div>
+                <div class="flower__light flower__light--2"></div>
+                <div class="flower__light flower__light--3"></div>
+                <div class="flower__light flower__light--4"></div>
+            </div>
+            <div class="flower__line"></div>
         </div>
     </div>
 
@@ -48,6 +48,5 @@
     </div>
 
     <script src="scripts.js"></script>
-
 </body>
-</html>
+</
