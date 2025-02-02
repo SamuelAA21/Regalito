@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7e6d5;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.gift {
+    cursor: pointer;
+}
+
+.dancing-doll {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes dance {
+    0%, 100% { transform: translateX(-50%) rotate(0deg); }
+    25% { transform: translateX(-50%) rotate(-10deg); }
+    50% { transform: translateX(-50%) rotate(10deg); }
+    75% { transform: translateX(-50%) rotate(-5deg); }
+}
+
+.dancing {
+    display: block !important;
+    animation: dance 0.5s infinite alternate ease-in-out;
+}
