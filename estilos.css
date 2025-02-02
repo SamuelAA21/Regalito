@@ -45,6 +45,12 @@ body {
     cursor: pointer;
 }
 
+#canvas {
+    display: none;
+    margin-top: 50px;
+    background: black;
+}
+
 #galeria {
     display: none;
     margin-top: 20px;
